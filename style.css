@@ -1,0 +1,113 @@
+.parent{
+    color: green;
+    .child{
+      
+    }
+    .title{
+        color: blue;
+    }
+    
+}
+.title,
+.parent .child .title{
+    color: red;
+}
+/*second page*/
+.one,
+.two,
+.three,
+.four
+{
+        background-color: brown;
+        max-width: 400px;
+        margin-top: 10px;
+        width: fit-content;
+        padding: 5px;
+        height: 35px;
+        overflow: hidden;
+}
+.onee{
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-style: italic;
+}
+.twoo{
+    font-family: cairo;
+    font-weight: 700px;
+}
+.threee{
+    font-family:jomhoria;
+    font-weight: 400px;
+}
+.parentt{
+    background-color: rgb(125, 125, 125);
+    width: 1000px;
+    text-align: center;
+    color: black;
+}
+.child{
+    div{
+        width: calc(76%/3);
+        display: inline-block;
+        height: 30px;
+        background-color: bisque;
+        float: left;
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 2%;
+    }
+}
+.first{
+    background-color: bisque;
+
+    margin: 2%;
+    margin-bottom: 1%;
+    height: 30px;
+    padding: 2%;
+}
+.second{
+    div{
+        width: calc(83%/2);
+        display: inline-block;
+        height: 30px;
+        background-color: bisque;
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 2%;
+    }
+}
+.third{
+    div{
+        width: calc(66%/4);
+        display: inline-block;
+        height: 30px;
+        background-color: bisque;
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 2%;
+    }
+}
+.five{
+    div {
+        margin: 20px auto;
+        width: 300px;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 20px;
+        
+        color: black;
+      }
+}
+.normal{
+    background-color: gray; 
+}
+.oneee{
+ background-color: #8080800a;
+}
+.twooo{
+    opacity: 0.1%;
+    background-color: gray; 
+}
